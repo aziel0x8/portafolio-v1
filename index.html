@@ -3,27 +3,218 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/icons8-mundo-48.png" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <title>Portafolio</title>
-</head>
-<body>
+</head><body>
+    <!-- navbar-light tambien sirve como fondo -->
+    <nav class="navbar navbar-expand-md  bg-primary">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbar-toggler">
+            <a class="navbar-brand" href="#"><img src="img/icons8-mundo-48.png" alt=""></a>
+            <ul class="navbar-nav d-flex justify-content-center align-items-center ">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mi</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#HB">Habilidades  y Formacion</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#experiencia">Proyectos</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#contacto">Contacto</a>
+              </li>
+              
+            </li>
+            </ul>
+           
+          </div>
+        </div>
+      </nav>
     
+      <!-- seccion princi -->
+      <section  class="inicio align-items-stretch">
+        <div class="inicio-prinicipal d-flex flex-column justify-content-center align-items-center">
+          <img class="desarrolador rounded-circle" src="img/my.jpeg"></img>      
+          <h1>Hola soy Diego aziel</h1>
+          <h2>Desarrolador de software frontend</h2>
+        </div>
+        <div class="inicio-secundario">
+            <img class="inicio-secundario-imagen img-fluid" src="img/pngegg.png" alt="dawsdsa">
+        </div>
+
+      </section>
+
+
+      <!-- sobre mi -->
+
+      <section id="sobre-mi" class="sobre-mi seccion-oscura">
+        <div class="contenedor">
+          <h2 class="seccion-titulo">Conoce un poco de mi</h2>
+          <p class="seccion-texto">Me apasiona el desarrollo  y me motiva el proceso de crear sitios web donde el usuario tenga un diseño atractivo y funcional.<br>
+            Atravez de este portafolio busco poder compartir mi pasion atravez de mis proyectos.
+          </p>
+        </div>
+      </section >
 
 
 
+       <!-- habilidades  y formacion educativa -->
+       <section id="HB" class="seccion-clara H-F">
+          <div class="row ">
+            <h1 class="text-center">Habilidades  y Formacion</h1>
 
-    <div>
-         <!-- aqui va a ir el calendario para las reuniones  -->
+            <div class="col-sm-12 col-md-6 d-flex justify-content-center">
+              <ul> 
+                <li> <i class="bi bi-check-circle-fill"></i>Perseverante</li> 
+                <li> <i class="bi bi-check-circle-fill"></i>Responsable</li>
+                <li> <i class="bi bi-check-circle-fill"></i>Respetuoso</li> 
+                <li> <i class="bi bi-check-circle-fill"></i>Flexible</li> 
+               
+              </ul>
+            </div>
+           
+            <div class="col-sm-12 col-md-6 d-flex justify-content-center">
+              <ul> 
+                <li> <i class="bi bi-check-circle-fill"></i>Bachiller general</li> 
+                <li> <i class="bi bi-check-circle-fill"></i>Tecnico en  sistemas</li>
+                <li> <i class="bi bi-check-circle-fill"></i>Cursos udemy</li> 
+                <li> <i class="bi bi-check-circle-fill"></i>Kodigo front-end</li> 
+              </ul>
+         
+            </div>
+       
+          </div>
+          
+       </section>
+       <hr>
 
-         <!-- Calendly inline widget begin -->
-            <div class="calendly-inline-widget" data-url="https://calendly.com/aziel1966/zoom-meeting" style="min-width:320px;height:700px;"></div>
-    </div>
-   
+      <!-- proyectos recientes -->
+       <section id="experiencia" class="proyectos-recientes seccion-clara d-flex flex-column">
+        <h2 class="seccion-titulo texto-negro">Mis proyectos</h2>
+        <h3 class="seccion-descripcion">Algunos proyectos recientes</h3>
 
+        <!-- galeria -->
+        <div class="container text-center proyectos-contenedor">
+          <div class="row">
+              <!-- proyecto 1 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                  <div class="proyecto">
+                    <img src="img/Proyecto1.PNG" alt="">
+                      <div class="overlay">
+                        <p class="">Proyecto 1</p>
+                        <div class="iconos-contenedor">
+                   
+                          <a href="https://github.com/aziel0x8/Proyecto-1.git" target="_blank" rel="noopener noreferrer">
+                            <i class="bi bi-github "></i>
+                          </a>
+                       
+                        </div>
+                    </div>
+                </div>
+              </div>
 
-    <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+                            <!-- proyecto 2 -->
+                            <div class="col-12 col-md-6 col-lg-4">
+                              <div class="proyecto">
+                                <img src="img/cm.png" alt="">
+                                  <div class="overlay">
+                                    <p>Proyecto 2</p>
+                                    <div class="iconos-contenedor">
+                                     
+                                      <a href="#" target="_blank" rel="noopener noreferrer">
+                                        <i class="bi bi-github"></i>
+                                      </a>
+                                    </div>
+                                </div>
+                            </div>
+                          </div>
+
+                                        <!-- proyecto 3 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                  <div class="proyecto">
+                    <img src="img/cm.png" alt="nose">
+                      <div class="overlay">
+                        <p>Proyecto 3</p>
+                        <div class="iconos-contenedor">
+                          <a href="#" target="_blank" rel="noopener noreferrer">
+                            <i class="bi bi-github"></i>
+                          </a>
+                         
+                        </div>
+                    </div>
+                </div>
+              </div>
+          </div>
+        </div>
+        
+       </section>
+
+ 
+
+       <!-- ===================================  -->
+
+       <!-- Contacto -->
+       <section id="contacto" class="contacto seccion-oscura-contacto">
+        <div class="container">
+          <div class="container text-center d-flex justify-content-evenly  rectangulo">
+              <div class="row">
+                <div class="col-12 col-md-4 seccion-titulo text-">
+                  Hablemos por correo o agenda una llamada
+                </div>
+                <div class="col-12 col-md-4 descripcion" style="font-family: 'eurostile'">
+                  Contáctate conmigo para hacer tu proyecto realidad.
+                </div>
+               <div class=" col-12 col-md-4">
+                <a href="mailto:aziel1966@gmail.com">
+                  <button>
+                    Contacto <i class="bi bi-envelope-check-fill"></i>
+                  </button>
+                </a>
+               </div>
+               <div class="row calendario">
+                <div class="col-12" col-md12>
+                    <!-- Calendly inline widget begin -->
+                <div class="calendly-inline-widget" data-url="https://calendly.com/aziel1966/zoom-meeting" style="min-width:320px;height:700px;"></div>
+                <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
 <!-- Calendly inline widget end -->
+                </div>
+               </div>
+               
+          </div>
+        </div>
+
+       </section>
+       <!-- final -->
+       <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
+       
+          <img class="footer-icono" src="img/open-book-.png" alt="">
+          <p class="footer-texto text-center">"El conocimiento se edifica paso a paso."<br></p>
+          <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+              <a href="https://github.com">
+                <i class="bi bi-linkedin"></i>
+              </a>
+              <a href="https://github.com">
+                <i class="bi bi-github"></i>
+              </a>
+              <var> <a href="mailto:aziel1966@gmail.com">
+                <i class="bi bi-envelope-at-fill"></i>
+              </a></var>
+          </div>
+            <div class="derechos-autor">Creado por Diego Aziel (2023) &#169;</div>
+         </footer>
+
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  </body>
 </body>
 </html>
